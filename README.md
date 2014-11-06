@@ -1,4 +1,0 @@
-SSEG
-====
-
-Monografia
