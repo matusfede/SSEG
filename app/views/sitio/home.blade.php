@@ -26,10 +26,10 @@
 
 			<div id="nav" class="grid_9 omega">
 				<ul class="navigation">
-					<li data-slide="1">Top Slide</li>
-					<li data-slide="2">Parallax Scrolling</li>
-					<li data-slide="3">Grid</li>
-					<li data-slide="4">Credits</li>
+					<li data-slide="1">Quienes Somos</li>
+					<li data-slide="2">Empresa</li>
+					<li data-slide="3">Contactenos</li>
+					<li data-slide="4">Ingrese</li>
 				</ul>
 			</div>
 
