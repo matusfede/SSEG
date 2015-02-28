@@ -56,7 +56,8 @@ a:visited {
 }
 .navigation li:hover{
 	cursor:pointer;
-	color: #a9d3d0;
+	border-color: #ffffff;
+	/*color: #a9d3d0;*/
 }
 
 .navigation .active{
