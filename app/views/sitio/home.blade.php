@@ -35,19 +35,7 @@
 		</div>
 	</div>
 
-	
-
-
-	<div class="slide" id="slide1" data-slide="1" data-stellar-background-ratio="0.5">
-		<div class="container clearfix">
-
-			<div style="display: table; margin: 0 auto;">
-				<img src="image/logo.svg">
-			</div>
-
-		</div>
-
-		<div id="bottom_menu">
+	<div id="bottom_menu">
 		<div class="container clearfix">
 			<div id="nav" class="grid_12">
 				<ul class="navigation">
@@ -59,6 +47,16 @@
 			</div>
 		</div>
 	</div>
+
+
+	<div class="slide" id="slide1" data-slide="1" data-stellar-background-ratio="0.5">
+		<div class="container clearfix">
+
+			<div style="display: table; margin: 0 auto;">
+				<img src="image/logo.svg">
+			</div>
+
+		</div>
 	</div>
 
 
