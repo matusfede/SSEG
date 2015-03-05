@@ -41,11 +41,8 @@
 		<div class="container clearfix">
 
 			<div id="content" class="grid_7">
-				<h1>Top Slide</h1>
-				<h2>Get ready to make magic!</h2>
-				<p>Remember that this is a BETA version. This is my first framework so if you see any issue please <a href="mailto:jalxob@gmail.com">let me know it</a>. </p>
-				<p>Don't forget to follow me!</p>
-				<p><a href="https://twitter.com/Jalxob" target="_blank"><img src="coolkitten/images/twitter.png"></a> <a href="http://dribbble.com/jalxob" target="_blank"><img src="coolkitten/images/dribbble.png"></a></p>
+				
+				<img src="image/logo.svg">
 			</div>
 			<div id="decorative" class="grid_5 omega">
 				<img src="coolkitten/images/decorative.png">
