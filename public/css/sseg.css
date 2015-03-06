@@ -1,0 +1,64 @@
+
+@font-face {
+	font-family: 'Sarabun';
+	src: url('../font/Sarabun.ttf');
+	font-weight: 400;
+	font-size: 1em;
+}
+
+@font-face {
+	font-family: 'TextMeOne';
+	src: url('../font/TextMeOne.ttf');
+	font-weight: 400;
+	font-size: 1em;
+}
+
+body {
+	font-family: Sarabun, 'Open Sans', sans-serif; 
+}
+
+#top_menu {
+	visibility: hidden;
+}
+
+#slide1 {
+	padding: 60px 0;
+}
+
+#bottom_menu {
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	height: auto;
+	background-color: transparent;
+	z-index: 100;
+	float: center;
+	color: #f2f2f2;
+}
+
+#bottom_menu #nav {
+	margin-bottom: 25px;
+}
+
+#bottom_menu .navigation {
+	float: center;
+}
+
+#bottom_menu li {
+	font-family: TextMeOne;
+	font-size: 1.5em;
+	
+}
+
+#bottom_menu span {
+	border-bottom-width: thick;
+	border-bottom-style: solid;
+}
+
+#bottom_menu span:hover {
+	border-color: #ffffff;
+}
+
+#bottom_menu .navigation .active {
+	color: #ffffff;
+}

@@ -11,13 +11,12 @@
 	<link rel="stylesheet" href="coolkitten/css/normalize.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="coolkitten/css/grid.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="coolkitten/css/style.css" type="text/css" media="screen">
-	<!-- <link rel="stylesheet" href="css/style.min.css" type="text/css" media="screen"> -->
-	<!--[if IE]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<link rel="stylesheet" href="css/sseg.css" type="text/css" media="screen">
 </head>
 
 <body>
 
-	<div class="menu">
+	<div class="menu" id="top_menu">
 		<div class="container clearfix">
 
 			<div id="logo" class="grid_3">
@@ -36,16 +35,25 @@
 		</div>
 	</div>
 
+	<div id="bottom_menu">
+		<div class="container clearfix">
+			<div id="nav" class="grid_12">
+				<ul class="navigation">
+					<li data-slide="1"><span>Quienes Somos</span></li>
+					<li data-slide="2"><span>Empresa</span></li>
+					<li data-slide="3"><span>Contactenos</span></li>
+					<li data-slide="4"><span>Ingrese</span></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
 
 	<div class="slide" id="slide1" data-slide="1" data-stellar-background-ratio="0.5">
 		<div class="container clearfix">
 
-			<div id="content" class="grid_7">
-				
+			<div style="display: table; margin: 0 auto;">
 				<img src="image/logo.svg">
-			</div>
-			<div id="decorative" class="grid_5 omega">
-				<img src="coolkitten/images/decorative.png">
 			</div>
 
 		</div>
@@ -105,11 +113,11 @@
 		</div>
 	</div>
 
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script type="text/javascript" src="coolkitten/js/jquery.stellar.min.js"></script>
 	<script type="text/javascript" src="coolkitten/js/waypoints.min.js"></script>
 	<script type="text/javascript" src="coolkitten/js/jquery.easing.1.3.js"></script>
 	<script type="text/javascript" src="coolkitten/js/scripts.js"></script>
-	<!-- <script type="text/javascript" src="js/scripts.min.js"></script> -->
+	<script type="text/javascript" src="js/sseg.js"></script>
 </body>
 </html>
