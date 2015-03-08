@@ -25,19 +25,15 @@ body {
 	padding: 60px 0;
 }
 
-#bottom_menu {
-	position: fixed;
-	bottom: 0px;
+#slide1 #bottom_menu {
+	position: absolute;
+	bottom: 25px;
 	width: 100%;
 	height: auto;
 	background-color: transparent;
 	z-index: 100;
 	float: center;
 	color: #f2f2f2;
-}
-
-#bottom_menu #nav {
-	margin-bottom: 25px;
 }
 
 #bottom_menu .navigation {
@@ -47,18 +43,16 @@ body {
 #bottom_menu li {
 	font-family: TextMeOne;
 	font-size: 1.5em;
-	padding: 0px 0 0 60px;
+	padding: 0;
+	margin-right: 50px;
 }
 
-#bottom_menu span {
-	border-bottom-width: thick;
-	border-bottom-style: solid;
-}
-
-#bottom_menu span:hover {
+#bottom_menu .navigation .active:hover {
 	border-color: #ffffff;
 }
 
-#bottom_menu .navigation .active {
+.navigation .active {
+	border-bottom-width: thick;
+	border-bottom-style: solid;
 	color: #ffffff;
 }
