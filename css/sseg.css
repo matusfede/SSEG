@@ -43,8 +43,17 @@ body {
 #bottom_menu li {
 	font-family: TextMeOne;
 	font-size: 1.5em;
+<<<<<<< HEAD:css/sseg.css
 	padding: 0;
 	margin-right: 50px;
+=======
+	
+}
+
+#bottom_menu span {
+	border-bottom-width: thick;
+	border-bottom-style: solid;
+>>>>>>> 1c98caceff8494f581e4acb39cc6ecf5d75c6447:public/css/sseg.css
 }
 
 #bottom_menu .navigation .active:hover {
