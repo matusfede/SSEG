@@ -13,6 +13,7 @@
 		<link rel="stylesheet" href="coolkitten/css/grid.css" type="text/css" media="screen">
 		<link rel="stylesheet" href="coolkitten/css/style.css" type="text/css" media="screen">
 		<link rel="stylesheet" href="css/sseg.css" type="text/css" media="screen">
+		<link rel="stylesheet" href="css/jquery.modal.css" type="text/css" media="screen" />
 	</head>
 
 	<body>
@@ -21,33 +22,33 @@
 			<div class="container clearfix">
 
 				<div id="logo" class="grid_3">
-					<img src="coolkitten/images/logo.png">
+					<img src="image/logo_min.svg">
 				</div>
 
 				<div id="nav" class="grid_9 omega">
 					<ul class="navigation">
-						<li data-slide="1">Quienes Somos</li>
-						<li data-slide="2">Empresa</li>
-						<li data-slide="3">Contactenos</li>
-						<li data-slide="4">Ingrese</li>
+						<li data-slide="1"><sapn>Quienes Somos</sapn></li>
+						<li data-slide="2"><sapn>Empresa</sapn></li>
+						<li data-slide="3"><sapn>Contactenos</sapn></li>
+						<li data-slide="4"><a class="login" href="#login-form" rel="modal:open">Ingrese</a></li>
 					</ul>
 				</div>
 
 			</div>
 		</div>
 
-		<div class="slide" id="slide1" data-slide="1">
+		<div class="slide" id="slide1">
 			<div class="container clearfix">
 
 				<div style="display: table; margin: 0 auto;">
-					<img src="image/logo.svg">
+					<img id="escudo" src="image/logo.svg">
 				</div>
 
 				<ul id="bottom_menu" class="navigation">
-					<li data-slide="1"><span>Quienes Somos</span></li>
-					<li data-slide="2"><span>Empresa</span></li>
-					<li data-slide="3"><span>Contactenos</span></li>
-					<li data-slide="4"><span>Ingrese</span></li>
+					<li data-slide="1">Quienes Somos</li>
+					<li data-slide="2">Empresa</li>
+					<li data-slide="3">Contactenos</li>
+					<li data-slide="4"><a class="login" href="#login-form" rel="modal:open">Ingrese</a></li>
 				</ul>
 
 			</div>
@@ -55,7 +56,7 @@
 
 
 
-		<div class="slide" id="slide2" data-slide="2" data-stellar-background-ratio="0.5">
+		<div class="slide" id="slide2" data-slide="1">
 			<div class="container clearfix">
 
 				<div id="content" class="grid_12">
@@ -68,7 +69,7 @@
 
 
 
-		<div class="slide" id="slide3" data-slide="3" data-stellar-background-ratio="0.5">
+		<div class="slide" id="slide3" data-slide="2" data-stellar-background-ratio="0.5">
 			<div class="container clearfix">
 
 				<div id="content" class="grid_12">
@@ -94,7 +95,7 @@
 
 
 
-		<div class="slide" id="slide4" data-slide="4" data-stellar-background-ratio="0.5">
+		<div class="slide" id="slide4" data-slide="3" data-stellar-background-ratio="0.5">
 			<div class="container clearfix">
 
 				<div id="content" class="grid_12">
@@ -107,11 +108,19 @@
 			</div>
 		</div>
 
+		<form action="" class="login_form modal" id="login-form" style="position: fixed; top: 50%; left: 50%; margin-top: -117.5px; margin-left: -200px; z-index: 2; display: none;">
+  			<h3>Please login to continue</h3>
+  			<p><label>Username:</label><input type="text"></p>
+  			<p><label>Password:</label><input type="password"></p>
+  			<p><input type="submit" value="Login"></p>
+		</form>
+
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 		<script type="text/javascript" src="coolkitten/js/jquery.stellar.min.js"></script>
 		<script type="text/javascript" src="coolkitten/js/waypoints.min.js"></script>
 		<script type="text/javascript" src="coolkitten/js/jquery.easing.1.3.js"></script>
 		<script type="text/javascript" src="coolkitten/js/scripts.js"></script>
 		<script type="text/javascript" src="js/sseg.js"></script>
+		<script type="text/javascript" src="js/jquery.modal.js"></script>
 	</body>
 </html>

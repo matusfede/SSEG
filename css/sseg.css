@@ -17,8 +17,12 @@ body {
 	font-family: Sarabun, 'Open Sans', sans-serif; 
 }
 
+.menu {
+	background-color: #5599ff;
+}
+
 #top_menu {
-	visibility: hidden;
+	display: none;
 }
 
 #slide1 {
@@ -27,41 +31,42 @@ body {
 
 #slide1 #bottom_menu {
 	position: absolute;
-	bottom: 25px;
-	width: 100%;
-	height: auto;
-	background-color: transparent;
-	z-index: 100;
-	float: center;
+	bottom: 50px;
 	color: #f2f2f2;
 }
 
-#bottom_menu .navigation {
-	float: center;
-}
-
-#bottom_menu li {
+.navigation li {
 	font-family: TextMeOne;
 	font-size: 1.5em;
-<<<<<<< HEAD:css/sseg.css
 	padding: 0;
 	margin-right: 50px;
-=======
-	
 }
 
-#bottom_menu span {
-	border-bottom-width: thick;
-	border-bottom-style: solid;
->>>>>>> 1c98caceff8494f581e4acb39cc6ecf5d75c6447:public/css/sseg.css
+.navigation li:hover {
+	font-weight: bold;
+	color: #ffffff;
 }
 
-#bottom_menu .navigation .active:hover {
-	border-color: #ffffff;
-}
 
 .navigation .active {
 	border-bottom-width: thick;
 	border-bottom-style: solid;
 	color: #ffffff;
+}
+
+.navigation .active span {
+	border-bottom-width: thick;
+	border-bottom-style: solid;
+}
+
+#logo img {
+	height: 50px;
+}
+
+#top_menu {
+	color: #f2f2f2;
+}
+
+a:link {
+	color: #f2f2f2;
 }
