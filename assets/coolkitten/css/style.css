@@ -107,12 +107,12 @@ a:visited {
 /* Slide 2 */ 
 
 #slide2{
-	background-image:url('../images/footprints.png');
-	background-color:#f68f67;
+	/*background-image:url('../images/footprints.png');*/
+	background-color:#ffd944;
 	color:#ffffff;
 }
 #slide2 h1 {
-	font-size: 3.8em;
+	font-size: 4.5em;
 	letter-spacing: -3px;
 	line-height: 0px;
 	color:#ffffff;
@@ -132,10 +132,10 @@ a:visited {
 /* Slide 3 */ 
 
 #slide3{
-	background-color:#ffffff;
+	background-color:#ffba44;
 }
 #slide3 h1 {
-	font-size: 3.8em;
+	font-size: 4.5em;
 	letter-spacing: -3px;
 	line-height: 0px;
 	color:#8a8683;
@@ -162,12 +162,12 @@ a:visited {
 /* Slide 4 */
 
 #slide4{
-	background-image:url('../images/sunglasses.png');
-	background-color:#8a8683;
+	/*background-image:url('../images/sunglasses.png');*/
+	background-color:#755cff;
 	color:#ffffff;
 }
 #slide4 h1 {
-	font-size: 3.8em;
+	font-size: 4.5em;
 	letter-spacing: -3px;
 	line-height: 0px;
 	color:#ffffff;
