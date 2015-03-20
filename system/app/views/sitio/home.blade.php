@@ -9,11 +9,19 @@
 		<link rel="shortcut icon" href="image/logo.png">
 		<title>Sistema de seguimiento de Egresados y Graduados</title>
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="coolkitten/css/normalize.css" type="text/css" media="screen">
-		<link rel="stylesheet" href="coolkitten/css/grid.css" type="text/css" media="screen">
-		<link rel="stylesheet" href="coolkitten/css/style.css" type="text/css" media="screen">
+		<link rel="stylesheet" href="css/site.min.css">
+		<link rel="stylesheet" href="assets/coolkitten/css/normalize.css" type="text/css" media="screen">
+		<link rel="stylesheet" href="assets/coolkitten/css/grid.css" type="text/css" media="screen">
+		<link rel="stylesheet" href="assets/coolkitten/css/style.css" type="text/css" media="screen">
 		<link rel="stylesheet" href="css/sseg.css" type="text/css" media="screen">
-		<link rel="stylesheet" href="css/jquery.modal.css" type="text/css" media="screen" />
+
+		<!-- <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'> -->
+	    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+	    <!--[if lt IE 9]>
+	    	<script src="js/html5shiv.js"></script>
+	      	<script src="js/respond.min.js"></script>
+	    <![endif]-->
+	    <script type="text/javascript" src="js/site.min.js"></script>
 	</head>
 
 	<body>
@@ -38,7 +46,7 @@
 		</div>
 
 		<div class="slide" id="slide1">
-			<div class="container clearfix">
+			<div id="portada" class="container clearfix">
 
 				<div style="display: table; margin: 0 auto;">
 					<img id="escudo" src="image/logo.svg">
@@ -108,19 +116,56 @@
 			</div>
 		</div>
 
-		<form action="" class="login_form modal" id="login-form" style="position: fixed; top: 50%; left: 50%; margin-top: -117.5px; margin-left: -200px; z-index: 2; display: none;">
-  			<h3>Please login to continue</h3>
-  			<p><label>Username:</label><input type="text"></p>
-  			<p><label>Password:</label><input type="password"></p>
-  			<p><input type="submit" value="Login"></p>
-		</form>
+		<div class="modal">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h4 class="modal-title">Contact</h4>
+                  </div>
+                  <div class="modal-body">
+                    <p>Feel free to contact us for any issues you might have with our products.</p>
+                    <div class="row">
+                      <div class="col-xs-6">
+                        <label>Name</label>
+                        <input type="text" class="form-control" placeholder="Name">
+                      </div>
+                      <div class="col-xs-6">
+                        <label>Email</label>
+                        <input type="text" class="form-control" placeholder="Email">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-xs-12">
+                        <label>Message</label>
+                        <textarea class="form-control" rows="3">Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac</textarea>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success">Send</button>
+                  </div>
+                </div>
+              </div>
+            </div>
 
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-		<script type="text/javascript" src="coolkitten/js/jquery.stellar.min.js"></script>
-		<script type="text/javascript" src="coolkitten/js/waypoints.min.js"></script>
-		<script type="text/javascript" src="coolkitten/js/jquery.easing.1.3.js"></script>
-		<script type="text/javascript" src="coolkitten/js/scripts.js"></script>
+		<script type="text/javascript" src="assets/coolkitten/js/jquery.stellar.min.js"></script>
+		<script type="text/javascript" src="assets/coolkitten/js/waypoints.min.js"></script>
+		<script type="text/javascript" src="assets/coolkitten/js/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="assets/coolkitten/js/scripts.js"></script>
 		<script type="text/javascript" src="js/sseg.js"></script>
-		<script type="text/javascript" src="js/jquery.modal.js"></script>
+
+		<script>
+	      	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	      	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	      	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	      	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	      	ga('create', 'UA-48721682-1', 'bootflat.github.io');
+		  	ga('require', 'displayfeatures');
+	      	ga('send', 'pageview');
+	    </script>
 	</body>
 </html>

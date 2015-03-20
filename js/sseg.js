@@ -12,7 +12,6 @@ jQuery(document).ready(function ($) {
 	$('#bottom_menu li').css('margin-right', dis_menu);
 
 	$(window).on('scroll', function() {
-		//if(($(window).scrollTop()+50) > $('#bottom_menu').position().top) {
 		if($(window).scrollTop() >= 500) {
 			$('#bottom_menu').css('display', 'none');
 			$('#top_menu').fadeIn('slow');
