@@ -35,7 +35,7 @@
 
 				<div id="nav" class="grid_9 omega">
 					<ul class="navigation">
-						<li data-slide="1"><sapn>Quienes Somos</sapn></li>
+						<li data-slide="1"><sapn>Nosotros</sapn></li>
 						<li data-slide="2"><sapn>Empresa</sapn></li>
 						<li data-slide="3"><sapn>Contactenos</sapn></li>
 						<li data-slide="4"><a class="login" href="#login-form" rel="modal:open">Ingrese</a></li>
