@@ -2,4 +2,24 @@
 
 .navbar {
   border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+}
+
+.btn {
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+}
+
+.jumbotron .carousel, .jumbotron .carousel-inner, .jumbotron .carousel-inner > .item.active img {
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+}
+
+.jumbotron .carousel-control.left {
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
 }
