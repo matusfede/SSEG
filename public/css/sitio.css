@@ -23,3 +23,22 @@
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
 }
+
+.modal-dialog {
+  width: 400px;
+}
+
+.modal-header {
+  background-color: #e6e9ed;
+  border-color: #e6e9ed;
+}
+
+.modal-body {
+  padding-top: 15px;
+}
+
+.modal-content {
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+}
