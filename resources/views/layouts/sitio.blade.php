@@ -57,7 +57,7 @@
             </li>
           </ul>
           <div class="navbar-right">
-            <button type="button" class="btn btn-primary navbar-btn">Registrarse</button>
+            <a type="button" href="{{ url('auth/register') }}" class="btn btn-primary navbar-btn">Registrarse</a>
             <button type="button" class="btn btn-default navbar-btn" data-toggle="modal" data-target=".modal  ">Iniciar</button>
           </div>
         </div><!-- /.navbar-collapse -->
@@ -112,8 +112,8 @@
     <script type="text/javascript" src="{!! asset('js/bootstrap.js') !!}"></script>
     <!-- Bootflat's JS files.-->
     <script type="text/javascript" src="{!! asset('js/icheck.min.js') !!}"></script>
-    <script type="text/javascript" src="{!! asset('js/fs.selecter.min.js') !!}"></script>
-    <script type="text/javascript" src="{!! asset('js/fs.stepper.min.js') !!}"></script>
+    <script type="text/javascript" src="{!! asset('js/selecter.min.js') !!}"></script>
+    <script type="text/javascript" src="{!! asset('js/stepper.min.js') !!}"></script>
     <!-- PSG Script -->
     <script type="text/javascript" src="{!! asset('js/sitio.js') !!}"></script>
   </body>

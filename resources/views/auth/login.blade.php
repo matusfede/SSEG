@@ -3,25 +3,30 @@
 @section('title', 'PSG')
 
 @section('content')
-<form method="POST" action="/auth/login">
-    {!! csrf_field() !!}
+<div class="row">
+  <div class="col-sm-8 col-md-4 col-md-offset-4">
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h3 class="panel-title">Iniciar Sesion</h3>
+      </div>
+      <div class="panel-body">
+        <form method="POST" action="/auth/login">
+          {!! csrf_field() !!}
+          <div>
+            <input type="email" name="email" class="form-control" value="{{ old('email') }}" placeholder="Correo Electronico">
+          </div>
+          <div>
+            <input type="password" name="password" class="form-control" placeholder="Contraseña" id="password">
+          </div>
+          <div>
 
-    <div class="row">
-        Email
-        <input type="email" name="email" value="{{ old('email') }}">
+          </div>
+          <div>
+            <button type="submit" class="btn btn-success btn-block">Acceder</button>
+          </div>
+        </form>
+      </div>
     </div>
-
-    <div>
-        Password
-        <input type="password" name="password" id="password">
-    </div>
-
-    <div>
-        <input type="checkbox" name="remember"> Remember Me
-    </div>
-
-    <div>
-        <button type="submit">Login</button>
-    </div>
-</form>
+  </div>
+</div>
 @endsection

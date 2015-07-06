@@ -42,3 +42,26 @@
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
 }
+
+.form-control {
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+}
+
+.panel {
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+}
+
+.panel-heading {
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+}
+
+.section hr {
+    border-top: 3px solid #434a54;
+    margin-top: 15px;
+}
