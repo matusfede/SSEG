@@ -1,0 +1,54 @@
+{
+  "name": "SSEG",
+  "version": "",
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.2.1",
+    "angular": "~1.5.0",
+    "materialize": "~0.97.5",
+    "angular-materialize": "~0.1.2"
+  },
+  "overrides": {
+    "jquery": {
+      "main": [
+        "./dist/jquery.js"
+      ]
+    },
+    "materialize": {
+      "main": [
+        "./sass/materialize.scss",
+        "./dist/js/materialize.js",
+        "./dist/fonts/material-design-icons/Material-Design-Icons.eot",
+        "./dist/fonts/material-design-icons/Material-Design-Icons.svg",
+        "./dist/fonts/material-design-icons/Material-Design-Icons.ttf",
+        "./dist/fonts/material-design-icons/Material-Design-Icons.woff",
+        "./dist/fonts/material-design-icons/Material-Design-Icons.woff2",
+        "./dist/fonts/roboto/Roboto-Bold.eot",
+        "./dist/fonts/roboto/Roboto-Bold.ttf",
+        "./dist/fonts/roboto/Roboto-Bold.woff",
+        "./dist/fonts/roboto/Roboto-Bold.woff2",
+        "./dist/fonts/roboto/Roboto-Light.eot",
+        "./dist/fonts/roboto/Roboto-Light.ttf",
+        "./dist/fonts/roboto/Roboto-Light.woff",
+        "./dist/fonts/roboto/Roboto-Light.woff2",
+        "./dist/fonts/roboto/Roboto-Medium.eot",
+        "./dist/fonts/roboto/Roboto-Medium.ttf",
+        "./dist/fonts/roboto/Roboto-Medium.woff",
+        "./dist/fonts/roboto/Roboto-Medium.woff2",
+        "./dist/fonts/roboto/Roboto-Regular.eot",
+        "./dist/fonts/roboto/Roboto-Regular.ttf",
+        "./dist/fonts/roboto/Roboto-Regular.woff",
+        "./dist/fonts/roboto/Roboto-Regular.woff2",
+        "./dist/fonts/roboto/Roboto-Thin.eot",
+        "./dist/fonts/roboto/Roboto-Thin.ttf",
+        "./dist/fonts/roboto/Roboto-Thin.woff",
+        "./dist/fonts/roboto/Roboto-Thin.woff2"
+      ]
+    },
+    "angular-materialize": {
+      "main": [
+        "./js/angular-materialize.js"
+      ]
+    }
+  }
+}

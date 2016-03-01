@@ -12,5 +12,16 @@ var elixir = require('laravel-elixir');
  */
 
 elixir(function(mix) {
-    mix.sass('app.scss');
+    //mix.copy('bower_components/materialize/sass/materialize.scss', 'resources/assets/sass/materialize.scss');
+    mix.sass([
+        '../../../bower_components/materialize/sass/materialize.scss',
+        'app.scss'
+    ]);
+    mix.scripts([
+        '../../../bower_components/jquery/dist/jquery.js',
+        '../../../bower_components/angular/angular.js',
+        '../../../bower_components/angular-materialize/src/angular-materialize.js',
+        '../../../bower_components/materialize/dist/js/materialize.js',
+        'app.js'
+    ]);
 });
